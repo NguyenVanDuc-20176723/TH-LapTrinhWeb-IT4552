@@ -1,61 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1 align="center">IT4552 - Thực hành lập trình Web</h1>
+<h2 align="center">Nhóm 8 - Đề tài 1</h2>
+<hr>
+<font size="+1"><b>Đề tài:</b> Website môi giới bất động sản</font><br><br>
+<font size="+2"><b>Thành viên</b></font>
+<div style="margin-left:30px">Bao gồm 4 thành viên:</div>
+<div style="margin-left:45px">
+	<table>
+    	<tr style="text-align:center">
+        	<th>Họ và tên</th>
+            <th>MSSV</th>
+        </tr>
+        <tr>
+        	<td>Nguyễn Văn Đức</td>
+            <td>20176723</td>
+        </tr>
+        <tr>
+        	<td>Nguyễn Quốc Cường</td>
+            <td>20176710</td>
+        </tr>
+        <tr>
+        	<td>Lê Huy Hoàng</td>
+            <td>20176767</td>
+        </tr>
+        <tr>
+        	<td>Trương Sơn Tùng</td>
+            <td>20176900</td>
+        </tr>
+    </table>
+</div><br>
+<font size="+2"><b>Hướng dẫn chạy:</b></font>
+<div >
+	<font size="+1" style="margin-left:30px"><b>Công cụ:</b><br>
+    	<div style="margin-left:45px">
+        	- XAMPP version 7.4.11<br>
+            - Composer version 2.0.4<br>
+            - Mysql<br>
+            - Bootstrap (chúng tôi sử dụng v4.5.3)<br>
+            - Git (tất nhiên không thể thiếu nó được)<br>
+        </div>        
+    </font>
+    <font size="+1" style="margin-left:30px"><b>Bước thực hiện:</b><br>
+    	<div style="margin-left:45px">
+        	<table>
+            <tr style="margin-top:5px">
+            	<td><i>B1:</i></td>
+                <td>Bạn clone hoặc tải xuống về máy</td>
+            </tr>
+            <tr style="margin-top:5px">
+            	<td><i>B2:</i></td>
+                <td>Mở command và sử dụng câu lệnh "composer install" để cài các package</td>
+            </tr>
+            <tr style="margin-top:5px">
+            	<td><i>B3:</i></td>
+                <td>Đối với hệ điều hành Windown sử dụng lệnh "copy .env.example .env | hoặc đối với linux sử dụng lệnh "cp .env.example .env"</td>
+            </tr>
+            <tr style="margin-top:5px">
+            	<td><i>B4:</i></td>
+                <td>Sau khi thực hiện xong bước <i>B3</i> bạn hạy chạy tiếp câu lệnh "php artisan key:generate"</td>
+            </tr>
+            <tr style="margin-top:5px">
+            	<td><i>B5:</i></td>
+                <td>Thực hiện đến <i>B4</i> là đã chạy được rồi. Chúng tôi sẽ hướng dẫn tiếp phần database khi chúng tôi có.</td>
+            </tr>
+        	</table>
+        </div>        
+    </font>
+</div>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Chúng tôi sẽ cập nhật tiếp ...
