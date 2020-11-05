@@ -213,7 +213,9 @@ ol {
 ---------------------*/
 
 .header-section {
-	position: absolute;
+	position: absolute; /*no làm các thành phần phía sau tràn lên,
+							 dc sử dụng khi muốn nổi lên thành phần khác*/
+	
 	width: 100%;
 	left: 0;
 	top: 0;
@@ -2105,4 +2107,8 @@ ol {
 
 .navbar li a:hover {
 	color: black !important;
+}
+
+.content {
+
 }
