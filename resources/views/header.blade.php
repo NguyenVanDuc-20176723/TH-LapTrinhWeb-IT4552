@@ -1,4 +1,4 @@
-<header class="header-section" style="background-color: #585858">
+<header style="background-color: #585858">
 	<div class="header-top">
 		<div class="container">
 			<div class="row">
@@ -27,12 +27,12 @@
 					<div class="user-panel">
 						<a href="#"><i class="fa fa-user-circle-o"></i>
 							<font style="vertical-align: inherit;">
-								Đăng ký
+								Register
 							</font>
 						</a>
 						<a href="#"><i class="fa fa-sign-in"></i>
 							<font style="vertical-align: inherit;">
-								Đăng nhập
+								Login
 							</font>
 						</a>
 					</div>
@@ -42,9 +42,10 @@
 	</div>
 	<!-- Menu -->	
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-		<div class="container-fluid">
+		<div class="container-fluid"> 
 			<a class="navbar-branch" href="#">
-				<h2>Royal <font color="red">Hotel</font></h2>
+				<!--<h2>Royal <font color="red">Hotel</font></h2>-->
+				<img src="source/images/logo.png" alt="logo" style="height:40px;">
 			</a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
