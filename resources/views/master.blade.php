@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>@yield('title')</title>
-		<!-- bootstrap css v4.5.3-->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">	
-		<!-- google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<!-- stylesheets -->
-		<link rel="stylesheet" href="source/assets/dest/animate.css">
-		<link rel="stylesheet" href="source/assets/dest/font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="source/assets/dest/owlcarousel.css">
-		<link rel="stylesheet" href="source/assets/dest/style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title')</title>
+    <link rel="shortcut icon" type="image/x-icon" href="source/assets/favicon.ico">
 
-		<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-	</head>
-	<body>
-		@include('header')
-		@yield('content')
-		@include('footer')
-		<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script> -->
-	</body>
+    <link rel="stylesheet" type="text/css" href="source/assets/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style2.css"> -->
+ 	<link rel="stylesheet" type="text/css" href="source/assets/css/color/color.css">
+ 	<link rel="stylesheet" href="source/assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="source/assets/css/owl.transitions.css">
+
+ 	<!-- ioncion
+ 		======================== -->
+ 		<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
+ 	<!-- fontawsome
+ 		========================= -->
+ 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- boostrap
+    	============================ -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    @include('header')
+    @yield('content')
+    @include('footer')
+    <!-- JAVASCRIPT
+    	=================================== -->
+
+    	<!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="source/assets/js/plugins.js"></script>	
+	<script src="source/assets/js/custom.js"></script> 
+</body>
 </html>

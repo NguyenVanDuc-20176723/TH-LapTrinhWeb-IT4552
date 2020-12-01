@@ -36,7 +36,7 @@
         	- XAMPP version 7.4.11<br>
             - Composer version 2.0.4<br>
             - Mysql<br>
-            - Bootstrap (chúng tôi sử dụng v4.5.3)<br>
+            - Bootstrap (chúng tôi sử dụng v4.3.1)<br>
             - Git (tất nhiên không thể thiếu nó được)<br>
         </div>        
     </font>
