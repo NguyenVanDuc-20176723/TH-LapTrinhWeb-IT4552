@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MyAccountController;
+use App\Http\Controllers\PagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Layouts.home');
 });
 
-Route::get('trang-chu', function(){
-    return view('layouts/trang-chu');
-});
+Route::get('home',[PagesController::class,'getHome'])->name('home');
+Route::get('register',[MyAccountController::class,'getRegister'])->name('register');
+//Route::get('register',[MyController::class,'postRegister'])->name('register');
+Route::get('log-in',[MyAccountController::class,'getLogIn'])->name('log-in');
