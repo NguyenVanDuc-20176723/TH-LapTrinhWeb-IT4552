@@ -10,7 +10,7 @@ class ReservationController extends Controller
 {
 	public function getReservation()
 	{
-		$reservation=Reservation::where('status',Null)->get();
+		$reservation=Reservation::/*where('status',Null)->*/get();
         $room=Room::all();
 		return view('admin.reservation.list',['reservation'=>$reservation,'room'=>$room]);
 	}
@@ -144,7 +144,7 @@ class ReservationController extends Controller
         // }
 
         $reservation=Reservation::find($id);
-        $reservation->status=1;
+        //$reservation->status=1;
         $room=Room::find($reservation->idRoom);
         $room->Status=1;
         $room->save();
