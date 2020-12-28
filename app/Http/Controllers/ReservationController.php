@@ -138,13 +138,15 @@ class ReservationController extends Controller
     }
     public function Delete($id)
     {   
-        $bill=DetailBill::where('idReservation',$id)->get();
-        // foreach ($bill as $b) {
-        //     $b->delete();
-        // }
-
+        $bill=/*DetailBill*/Reservation::where('id',$id)->get();
         $reservation=Reservation::find($id);
+        foreach ($bill as $b) {
+             $b->delete();
+         }
+
+        //$reservation=Reservation::find($id);
         //$reservation->status=1;
+
         $room=Room::find($reservation->idRoom);
         $room->Status=1;
         $room->save();
