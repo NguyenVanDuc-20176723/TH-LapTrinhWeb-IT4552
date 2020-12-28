@@ -42,7 +42,7 @@
 	- B1: Bạn clone hoặc tải xuống về máy
 	- B2: Mở command, cd vào project và sử dụng câu lệnh "composer install" để cài các package
 	- B3: Đối với hệ điều hành Windown sử dụng lệnh "copy .env.example .env" | hoặc đối với linux sử dụng lệnh "cp .env.example .env"
-	- B4: Chỉnh sửa tên database của bạn trong file .env , sử dụng file "hotelmanage.sql" ở thư mục database của project.
+	- B4: Chỉnh sửa tên database của bạn trong file .env , sử dụng file "hotelmanage(1).sql" ở thư mục database của project.
 	- B6: Sau khi thực hiện xong bước B3 bạn hạy chạy tiếp câu lệnh "php artisan key:generate"
 	- B7: chạy ...
 ## Chúng tôi sẽ cập nhật tiếp ...
